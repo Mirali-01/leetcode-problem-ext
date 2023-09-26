@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Random Problem Redirector",
+  "version": "1.0",
+  "description": "Automatically redirects to a random LeetCode problem.",
+  "permissions": ["activeTab", "storage", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/alert-16.png",
+    "48": "images/alert-48.png",
+    "128": "images/alert-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/alert-16.png",
+      "48": "images/alert-48.png",
+      "128": "images/alert-128.png"
+    }},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
