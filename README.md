@@ -26,7 +26,7 @@ The LeetCode Random Problem Chrome Extension is a handy tool for LeetCode enthus
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/leetcode-random-problem-extension.git
+   git clone https://github.com/Mirali-01/leetcode-random-problem-extension.git
    ```
 
 2. Open Google Chrome.
